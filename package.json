@@ -22,7 +22,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {  
-    "clicve": "./bin/index.js"  
+  "bin": {
+    "clicve": "./bin/index.js"
+  },
+  "dependencies": {
+    "ascii-art": "^2.8.5",
+    "blessed": "^0.1.81",
+    "boxen": "^9.0.0",
+    "chalk": "^6.0.1",
+    "yargs": "^18.2.0"
   }
 }
