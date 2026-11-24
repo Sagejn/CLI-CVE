@@ -180,6 +180,8 @@ var buttonBox = blessed.textbox({
     left: 'center',
     height: 10,
     width: 80,
+    label: 'CVE', fg: 'red',
+
     content: ' ',
     border: {
         type: 'line',
