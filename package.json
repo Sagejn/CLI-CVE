@@ -1,0 +1,28 @@
+{
+  "name": "cli-cve",
+  "version": "1.0.0",
+  "description": "Interactive JSON fetcher for the NVD CVE database",
+  "keywords": [
+    "CVE",
+    "nodejs",
+    "cybersecurity",
+    "JSON-fetcher"
+  ],
+  "homepage": "https://github.com/Sagejn/CLI-CVE#readme",
+  "bugs": {
+    "url": "https://github.com/Sagejn/CLI-CVE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagejn/CLI-CVE.git"
+  },
+  "author": "Sagejn",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {  
+    "clicve": "./bin/index.js"  
+  }
+}
